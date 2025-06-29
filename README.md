@@ -79,6 +79,21 @@ git clone https://github.com/PhilipKone/Gait-Predictive-Analysis-.git
 
 ---
 
+## 🏆 Results
+
+- **High Accuracy:** Models successfully reconstructed hip, knee, and ankle kinematic waveforms.
+- **Performance Metrics:**
+  - Coefficient of determination: **R² ≥ 0.9**
+  - Root Mean Squared Error: **RMSE ≤ 6°** (validation study)
+- **Statistical Significance:**
+  - All predictors had **p-values < 0.05** and were clinically relevant.
+- **Robust Validation:**
+  - Leave-one-out cross-validation was used for model validation.
+
+> These results demonstrate the effectiveness of the approach for region-specific gait data prediction and clinical gait analysis.
+
+---
+
 ## 📜 License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). See the [LICENSE](./LICENSE) file for details.
