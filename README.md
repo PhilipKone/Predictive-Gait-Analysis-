@@ -63,3 +63,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions and support, please open an issue in the repository.
+
+## Citation
+
+If you use this project or its results in your research, please cite the following paper:
+
+[https://doi.org/10.1101/2025.04.03.25325168](https://doi.org/10.1101/2025.04.03.25325168)
