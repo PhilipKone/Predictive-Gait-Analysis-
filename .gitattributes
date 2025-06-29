@@ -1,0 +1,4 @@
+*.m linguist-language=MATLAB
+*.mlx linguist-language=MATLAB
+*.mat linguist-language=MATLAB
+*.mlappinstall linguist-language=MATLAB
