@@ -1,71 +1,98 @@
-# Predictive Gait Analysis
+<h1 align="center">Predictive Gait Analysis</h1>
 
-This project implements a sophisticated gait analysis algorithm using MATLAB, designed to analyze and predict human gait patterns through advanced computational methods. The system processes gait waveform data to extract meaningful insights about movement patterns and potential abnormalities.
+<p align="center">
+  <a href="https://doi.org/10.1101/2025.04.03.25325168"><img src="https://img.shields.io/badge/DOI-10.1101%2F2025.04.03.25325168-blue" alt="DOI"></a>
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg" alt="License"></a>
+  <a href="https://www.mathworks.com/products/matlab.html"><img src="https://img.shields.io/badge/MATLAB-R2021a%2B-orange" alt="MATLAB"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey" alt="Platform"></a>
+</p>
 
-## Features
+---
 
-- **Keypoints Extraction**: Advanced algorithm for extracting key points from gait waveforms
-- **Regression Analysis**: Statistical analysis of gait patterns
-- **Interactive Visualization**: MATLAB-based GUI for real-time gait waveform analysis
-- **Predictive Modeling**: Machine learning approach to predict gait characteristics
+> **State-of-the-art MATLAB toolkit for advanced gait waveform analysis, prediction, and visualization.**
 
-## Prerequisites
+---
+
+## 🚀 Features
+
+|  |  |
+|:---:|:---:|
+| 🦶 **Keypoints Extraction** <br> Advanced algorithm for extracting key points from gait waveforms | 📊 **Regression Analysis** <br> Statistical analysis of gait patterns |
+| 🖥️ **Interactive Visualization** <br> MATLAB-based GUI for real-time gait waveform analysis | 🤖 **Predictive Modeling** <br> Machine learning approach to predict gait characteristics |
+
+---
+
+## 🛠️ Prerequisites
 
 - MATLAB (2021a or later recommended)
 - Signal Processing Toolbox
 - Statistics and Machine Learning Toolbox
 
-## Installation
+---
 
-1. Clone this repository
-2. Navigate to the `App` folder
-3. Install the `Gait Waveform.mlappinstall` application
-4. Launch MATLAB and run the installed application
+## ⚡ Quick Start
 
-## Quick Start
+### 1️⃣ Local Installation
 
-You can run the analysis in two ways:
+```sh
+# Clone the repository
+git clone https://github.com/PhilipKone/Gait-Predictive-Analysis-.git
 
-### Option 1: Local Installation
+# Install the App
+# In MATLAB, navigate to the App folder and install Gait Waveform.mlappinstall
+```
 
-1. Open MATLAB on your desktop
-2. Navigate to the project directory
-3. Run one of the following files:
-   - `keypointsExtraction.mlx`: For analyzing gait keypoints
-   - `RegressionAnalysis.mlx`: For statistical analysis
-   - `pfyp.mlx`: For the complete analysis pipeline
+- Open MATLAB and run:
+  - `keypointsExtraction.mlx` for keypoints analysis
+  - `RegressionAnalysis.mlx` for statistical analysis
+  - `pfyp.mlx` for the complete pipeline
 
-### Option 2: MATLAB Online
+### 2️⃣ MATLAB Online
 
-Click one of the buttons below to run the analysis in MATLAB Online:
+<p align="center">
+  <a href="https://matlab.mathworks.com/open/github/v1?repo=PhilipKone/Gait-Predictive-Analysis-&file=pfyp.mlx">
+    <img src="https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg" alt="Open in MATLAB Online" width="200"/>
+  </a>
+  <a href="https://matlab.mathworks.com/open/github/v1?repo=PhilipKone/Gait-Predictive-Analysis-">
+    <img src="https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg" alt="Open in MATLAB Online" width="200"/>
+  </a>
+</p>
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=PhilipKone/Gait-Predictive-Analysis-&file=pfyp.mlx)
+---
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=PhilipKone/Gait-Predictive-Analysis-)
+## 📄 Documentation
 
-## Documentation
+- For a detailed overview of the algorithm and methodology, see [`projectRM.pdf`](./projectRM.pdf).
 
-For a detailed overview of the algorithm and methodology, please refer to `projectRM.pdf` included in this repository.
+---
 
-## Files Description
+## 📁 File Overview
 
-- `keypointsExtraction.mlx`: MATLAB Live Script for extracting key points from gait data
-- `pfyp.mlx`: Main analysis pipeline
-- `projectRM.mlx`: Project documentation in MATLAB Live Script format
-- `RegressionAnalysis.mlx`: Statistical analysis of gait patterns
-- `rm.mat`: MATLAB data file containing reference data
-- `App/Gait Waveform.mlappinstall`: Installable MATLAB application for gait analysis
+| File | Description |
+|------|-------------|
+| `keypointsExtraction.mlx` | MATLAB Live Script for extracting key points from gait data |
+| `pfyp.mlx` | Main analysis pipeline |
+| `projectRM.mlx` | Project documentation in MATLAB Live Script format |
+| `RegressionAnalysis.mlx` | Statistical analysis of gait patterns |
+| `rm.mat` | MATLAB data file containing reference data |
+| `App/Gait Waveform.mlappinstall` | Installable MATLAB application for gait analysis |
 
-## License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📜 License
 
-## Contact
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🙋 Contact
 
 For questions and support, please open an issue in the repository.
 
-## Citation
+---
+
+## 📚 Citation
 
 If you use this project or its results in your research, please cite the following paper:
 
-[https://doi.org/10.1101/2025.04.03.25325168](https://doi.org/10.1101/2025.04.03.25325168)
+> [https://doi.org/10.1101/2025.04.03.25325168](https://doi.org/10.1101/2025.04.03.25325168)
