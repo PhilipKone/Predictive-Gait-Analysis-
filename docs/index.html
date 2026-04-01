@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Gait Analysis | Research & Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="brand">Gait Analysis</span>
+            <div class="nav-links">
+                <a href="#abstract">Abstract</a>
+                <a href="#features">Features</a>
+                <a href="#results">Results</a>
+                <a href="https://github.com/PhilipKone/Predictive-Gait-Analysis-" class="btn-github">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Research Publication</span>
+            <h1>Predictive Gait Analysis</h1>
+            <p class="subtitle">Advanced MATLAB Toolkit for Kinematic Waveform Prediction and Visualization</p>
+            <div class="hero-actions">
+                <a href="https://doi.org/10.1101/2025.04.03.25325168" class="btn-primary">View Paper (DOI)</a>
+                <a href="https://matlab.mathworks.com/open/github/v1?repo=PhilipKone/Predictive-Gait-Analysis-&file=pfyp.mlx" class="btn-secondary">Open in MATLAB Online</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="abstract" class="section">
+        <div class="container">
+            <h2 class="section-title">Abstract</h2>
+            <div class="abstract-card">
+                <p>Human gait analysis is a critical tool for clinical assessment and rehabilitation. This project presents a state-of-the-art MATLAB toolkit designed for the advanced analysis, prediction, and visualization of gait waveforms. By leveraging machine learning and statistical regression, the toolkit successfully reconstructs complex kinematic waveforms for the hip, knee, and ankle with unprecedented accuracy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Core Methodology</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon">🦶</div>
+                    <h3>Keypoints Extraction</h3>
+                    <p>Advanced algorithmic extraction of critical points from gait waveforms for precise morphological analysis.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📊</div>
+                    <h3>Regression Analysis</h3>
+                    <p>Rigorous statistical modeling of gait patterns to identify clinically relevant predictors.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🤖</div>
+                    <h3>Predictive Modeling</h3>
+                    <p>Machine learning-driven approach to predict gait characteristics across diverse populations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="section">
+        <div class="container">
+            <h2 class="section-title">Validated Performance</h2>
+            <div class="metrics-container">
+                <div class="metric-card">
+                    <span class="metric-value">R² ≥ 0.9</span>
+                    <span class="metric-label">Coefficient of Determination</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">RMSE ≤ 6°</span>
+                    <span class="metric-label">Root Mean Squared Error</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-value">p < 0.05</span>
+                    <span class="metric-label">Statistical Significance</span>
+                </div>
+            </div>
+            <p class="results-note">Results validated using leave-one-out cross-validation across multiple kinematic profiles.</p>
+        </div>
+    </section>
+
+    <section id="citation" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white">Cite This Work</h2>
+            <div class="citation-box">
+                <pre><code>@article{kone2025predictive,
+  title={Predictive Gait Analysis: A MATLAB Toolkit for Advanced Kinematic Prediction},
+  author={Kone, Philip},
+  journal={bioRxiv},
+  year={2025},
+  doi={10.1101/2025.04.03.25325168}
+}</code></pre>
+                <button class="btn-copy">Copy BibTeX</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Philip Kone | Licensed under CC BY-NC 4.0</p>
+    </footer>
+
+    <script>
+        document.querySelector('.btn-copy').addEventListener('click', () => {
+            const code = document.querySelector('code').innerText;
+            navigator.clipboard.writeText(code);
+            alert('BibTeX copied to clipboard!');
+        });
+    </script>
+</body>
+</html>
